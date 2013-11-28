@@ -1,0 +1,15 @@
+<article id="organisations">
+  <section id="organisations_header">
+    <h1>Mole Valley Natural Organisations</h1>
+  </section>
+  
+    <section id="organisations_list">
+
+      <% @organisations.each do |organisation| %>
+      <h2><%= organisation.title %></h2>
+      <a><%= organisation.website %></a>
+      <h5><%= organisation.description %></h5>
+  <p class="one"></p>
+    <% end %>
+  </section>
+</article>

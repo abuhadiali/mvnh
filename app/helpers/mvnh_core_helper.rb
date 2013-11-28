@@ -1,0 +1,2 @@
+module MvnhCoreHelper
+end
